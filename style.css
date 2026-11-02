@@ -1,0 +1,11 @@
+:root { --navy: #0B0F1A; --gold: #D4AF37; --ivory: #F5E9D3; --slate: #8A8F98; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--navy); color: var(--ivory); font: 17px/1.65 Georgia, "Times New Roman", serif; }
+main { max-width: 720px; margin: 0 auto; padding: 56px 24px 72px; }
+img { width: 120px; height: 120px; border-radius: 50%; display: block; margin-bottom: 24px; }
+h1 { color: var(--gold); font-size: 30px; font-weight: normal; letter-spacing: .04em; margin: 0 0 6px; }
+h2 { color: var(--gold); font-size: 20px; font-weight: normal; margin: 34px 0 6px; }
+p, li { margin: 8px 0; }
+a { color: var(--gold); }
+.note { color: var(--slate); font-size: 15px; }
+footer { border-top: 1px solid #2a3040; margin-top: 44px; padding-top: 16px; font-size: 15px; color: var(--slate); }
